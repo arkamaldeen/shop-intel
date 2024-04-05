@@ -1,0 +1,10 @@
+langchain==0.1.14
+sentence_transformers==2.6.1
+qdrant_client==1.8.2
+torch==2.2.2
+langchain-together==0.0.2.post1
+together==0.2.11
+python-dotenv
+gradio
+flask
+flask-cors

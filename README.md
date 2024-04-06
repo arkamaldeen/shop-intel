@@ -6,28 +6,40 @@
 git clone git@github.com:arkamaldeen/shop-intel.git
 ```
 
-3. **Navigate to the Repository Directory:**
+2. **Navigate to the Repository Directory:**
 ```
-cd shop-intel\n
+cd shop-intel
 ```
 
-5. **Create a Virtual Environment:**
-   ```bash\n   python -m venv .venv\n   ```
+3. **Create a Virtual Environment:**
+```
+python -m venv .venv
+```
 
-6. **Activate the Virtual Environment:**
-   ```bash\n   .venv\\scripts\\activate\n   ```
+4. **Activate the Virtual Environment:**
+ ```
+   .venv\scripts\activate
+ ```
 
-7. **Install Dependencies in the Virtual Environment:**
-   ```bash\n   pip install -r requirements.txt\n   ```
+5. **Install Dependencies in the Virtual Environment:**
+```
+pip install -r requirements.txt
+```
 
-8. **Install Docker and Run Docker Desktop:**
-   ```bash\n   docker pull qdrant/qdrant\n   ```
+6. **Install Docker and Run Docker Desktop:**
+```
+docker pull qdrant/qdrant
+```
 
-9. **Run Qdrant Docker:**
-   ```bash\n   docker run -p 6333:6333 -v .:/qdrant/storage qdrant/qdrant\n   ```
+7. **Run Qdrant Docker:**
+```
+docker run -p 6333:6333 -v .:/qdrant/storage qdrant/qdrant
+```
 
-10. **Run Python File:**
-   ```bash\n   python app.py\n   ```
+8. **Run Python File:**
+```
+python app.py
+```
 
 
 This set of instructions guides you through setting up and running the "shop-intel" repository, including cloning the repository, setting up a virtual environment, installing dependencies, running Docker, and executing the Python file.
